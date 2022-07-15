@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row first-row">
+            <!-- this is supposed to be a row -->
+        </div>
+        <div class="row">
+          <div class="col-sm">
+            <!-- One of three columns -->
+          </div>
+          <div class="col-sm">
+    <!--Bootstrap Card-->
+            <div class="card">
+                <h5 class="card-header">Tip Calculator</h5>
+                <div class="card-body">
+                <!-- <h5 class="card-title">Special title treatment</h5> -->
+
+                <!--Input box for bill amount-->
+                <div class="input-group mb-3">
+                    <span class="input-group-text">$</span>
+                    <input id="bill-amount" type="text" class="form-control" placeholder="Enter bill amount..." aria-label="Amount (to the nearest dollar)">
+                </div>
+                
+                <!--Input box for tip percentage-->
+                <div class="input-group mb-3">
+                    <input id="tip" type="text" class="form-control" placeholder="Enter tip percentage..." aria-label="Tip" aria-describedby="basic-addon1">
+                    <span class="input-group-text" id="basic-addon1">%</span>
+                </div>
+                
+                <!--Input box for number of guests-->
+                <div class="input-group mb-3">
+                    <input id="guests" type="text" class="form-control" placeholder="Enter number of guests..." aria-label="Guests" aria-describedby="basic-addon1">
+                    <span class="input-group-text" id="basic-addon1">Guests</span>
+                  </div>
+
+
+                <p id="output_text" class="card-text">asd;flkjasd;flkajsdf;lkjsdf</p>
+
+
+                <!--Button code-->
+                <a href="#" id="calculate" class="btn btn-primary">Calculate</a>
+                </div>
+                <!--Button code-->
+
+            </div>
+    <!--End of Bootstrap Card-->
+          </div>
+          <div class="col-sm">
+            <!-- One of three columns -->
+          </div>
+
+
+
+
+
+    <script type="text/javascript" src="script.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
